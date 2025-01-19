@@ -43,9 +43,10 @@
   - valgrind for memory analysis (optional).
   
 ---
+## 🚀 How to Run the Project 
 1. Clone the Repository:
 ```bash
-git clone https://github.com/your_username/so_long.git
+git clone https://github.com/davx00/so_long.git
 cd so_long
 ```
 2. Build the Project:
@@ -54,12 +55,13 @@ make
 ```
 3. Run the Game:
 ```bash
-./so_long maps/example_map.ber
+./so_long maps/map_pacman.ber
 ```
 4. Game Controls:
 - Arrow Keys: Move the character.
 - ESC Key: Close the game.
-How to Use the Game
+
+## 🎮 How to Use the Game
 1. Understand the Objective:
 Collect all the collectible items (C) scattered across the map. Navigate the
 player (P) to the exit (E) after collecting all items to win.
