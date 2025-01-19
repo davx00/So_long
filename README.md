@@ -1,26 +1,26 @@
-# So_long
+# 🎮 So_long  
 
-**So_long** is a simple 2D game developed using `minilibx-linux`, a minimalistic graphics library commonly used in educational projects. This project combines 2D graphics, game logic, and event handling, providing a practical experience in low-level technologies and essential programming concepts for graphical applications.
-
----
-
-## Project Objectives
-
-1. Create a functional 2D game with basic rules.
-2. Explore the use of `minilibx-linux` for rendering graphics and handling events.
-3. Develop skills in project organization, writing clean code, and documentation.
-4. Deliver a clear, ready-to-run project for Linux systems.
+**So_long** is a simple 2D game developed using `minilibx-linux`, a minimalistic graphics library commonly used in educational projects. This project combines 2D graphics, game logic, and event handling, providing a practical experience in low-level technologies and essential programming concepts for graphical applications.  
 
 ---
 
-## Key Features
+## ✨ Project Objectives  
 
-- **Goal:** The player controls a character that must collect all items on the map and reach the exit to win.  
-- **Events:**  
-  - Player movement (arrow keys).  
+- ✅ Create a functional 2D game with basic rules.  
+- ✅ Explore the use of `minilibx-linux` for rendering graphics and handling events.  
+- ✅ Develop skills in project organization, writing clean code, and documentation.  
+- ✅ Deliver a clear, ready-to-run project for Linux systems.  
+
+---
+
+## 🕹️ Key Features  
+
+- **🎯 Goal:** The player controls a character that must collect all items on the map and reach the exit to win.  
+- **⚙️ Events:**  
+  - Player movement (⬅️➡️⬆️⬇️ arrow keys).  
   - Collision detection with walls or other elements.  
   - Progress tracking (items collected and steps taken).  
-- **Map:**  
+- **🗺️ Map:**  
   - Represented in a `.ber` file (text-based map).  
   - Format includes:  
     - `1` for walls.  
@@ -31,7 +31,7 @@
 
 ---
 
-## Project Structure
+## 📂 Project Structure  
 
 ```plaintext
 so_long/
@@ -55,3 +55,14 @@ so_long/
 ├── README.md                # Project documentation
 └── .gitignore               # Ignored files
 
+---
+
+💻 Technical Requirements
+🖥️ Operating System: Linux.
+📦 Libraries:
+minilibx-linux
+libx11 and other required graphics dependencies.
+🛠️ Compiler: gcc compatible with your system.
+🔧 Additional Tools:
+make for building the project.
+valgrind for memory analysis (optional).
