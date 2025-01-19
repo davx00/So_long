@@ -1,7 +1,4 @@
 # So_long
-And thanks for all the fish!
-
-# So_long
 
 **So_long** is a simple 2D game developed using `minilibx-linux`, a minimalistic graphics library commonly used in educational projects. This project combines 2D graphics, game logic, and event handling, providing a practical experience in low-level technologies and essential programming concepts for graphical applications.
 
