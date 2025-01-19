@@ -77,7 +77,7 @@ follow this format:
 - Include at least one collectible item (C).
 Run the game with your custom map:
 ```bash
-./so_long maps/your_custom_map.ber
+./so_long maps/map_pacman.ber
 ```
 
 ## 📂 Project Structure  
