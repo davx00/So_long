@@ -31,6 +31,53 @@
 
 ---
 
+💻 Technical Requirements
+- 🖥️ Operating System: Linux.
+- 📦 Libraries:
+  - minilibx-linux
+  - libx11 and other required graphics dependencies.
+
+- 🛠️ Compiler: gcc compatible with your system.
+- 🔧 Additional Tools:
+  - make for building the project.
+  - valgrind for memory analysis (optional).
+  
+---
+1. Clone the Repository:
+```bash
+git clone https://github.com/your_username/so_long.git
+cd so_long
+```
+2. Build the Project:
+```bash
+make
+```
+3. Run the Game:
+```bash
+./so_long maps/example_map.ber
+```
+4. Game Controls:
+- Arrow Keys: Move the character.
+- ESC Key: Close the game.
+How to Use the Game
+1. Understand the Objective:
+Collect all the collectible items (C) scattered across the map. Navigate the
+player (P) to the exit (E) after collecting all items to win.
+2. Gameplay:
+Use the arrow keys to move the character on the map. Avoid walking into walls
+(1) as they block your path. Progress is tracked in terms of steps taken and
+items collected.
+3. Custom Maps:
+Create your own .ber map files and place them in the maps/ folder. The map must
+follow this format:
+- Must be rectangular.
+- Contain exactly one player (P) and one exit (E).
+- Include at least one collectible item (C).
+Run the game with your custom map:
+```bash
+./so_long maps/your_custom_map.ber
+```
+
 ## 📂 Project Structure  
 
 ```plaintext
@@ -55,14 +102,3 @@ so_long/
 ├── README.md                # Project documentation
 └── .gitignore               # Ignored files
 
----
-
-💻 Technical Requirements
-🖥️ Operating System: Linux.
-📦 Libraries:
-minilibx-linux
-libx11 and other required graphics dependencies.
-🛠️ Compiler: gcc compatible with your system.
-🔧 Additional Tools:
-make for building the project.
-valgrind for memory analysis (optional).
